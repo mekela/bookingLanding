@@ -1,0 +1,15 @@
+// Normally mainpage media styles
+// You can read about usage in https://github.com/paranoida/sass-mediaqueries 
+.pb-0{
+    padding-bottom: 0;
+}
+.pt-0{
+    padding-top: 0;
+}
+
+//styles for custom device width
+@include mq($max-width: 992px) {
+  img{
+      max-width: 100%;
+  }
+}
